@@ -4,5 +4,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/', // ✅ use '/' for root domain like poojakale.online
+  base: '/pooja-kale-portfolio/', // Updated base path for GitHub Pages
 });
