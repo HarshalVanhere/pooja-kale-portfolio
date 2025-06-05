@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/pooja-kale-portfolio/', // Updated base path for GitHub Pages
+  base: '/', // Changed to root for custom domain
   build: {
     assetsDir: 'assets',
     rollupOptions: {
