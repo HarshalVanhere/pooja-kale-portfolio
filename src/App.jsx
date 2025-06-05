@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import './App.css'
-import backgroundImage from './assets/images/69638974-portfolio-wallpapers.jpg'
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,10 +31,10 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="hero-section" style={{ '--bg-image': `url(${backgroundImage})` }}>
+      <section id="hero" className="hero-section" style={{ '--bg-image': `url(/images/69638974-portfolio-wallpapers.jpg)` }}>
         <div className="hero-content">
           <div className="profile-image">
-            <img src="src\assets\images\pooja.jpeg" alt="Pooja Kale" />
+            <img src="/images/pooja.jpeg" alt="Pooja Kale" />
           </div>
           <h1>Pooja Kale</h1>
           <h2>MBA in Marketing & HR</h2>
