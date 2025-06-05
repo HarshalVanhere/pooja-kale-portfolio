@@ -34,10 +34,10 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="hero-section" style={{ '--bg-image': `url(${backgroundImage})` }}>
+      <section id="hero" className="hero-section" style={{ '--bg-image': `url(/assets/images/69638974-portfolio-wallpapers.jpg)` }}>
         <div className="hero-content">
           <div className="profile-image">
-            <img src={profileImage} alt="Pooja Kale" />
+            <img src="/assets/images/pooja.jpeg" alt="Pooja Kale" />
           </div>
           <h1>Pooja Kale</h1>
           <h2>MBA in Marketing & HR</h2>
