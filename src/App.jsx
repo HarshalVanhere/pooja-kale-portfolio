@@ -34,10 +34,10 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="hero-section" style={{ '--bg-image': `url(https://drive.google.com/file/d/1eC3gbktx0gJoYRS5zFD2Wf51wdfwC0Wp/view?usp=sharing)` }}>
+      <section id="hero" className="hero-section" style={{ '--bg-image': `url(https://drive.google.com/uc?export=view&id=1eC3gbktx0gJoYRS5zFD2Wf51wdfwC0Wp)` }}>
         <div className="hero-content">
           <div className="profile-image">
-            <img src="/assets/images/pooja.jpeg" alt="Pooja Kale" />
+            <img src="https://drive.google.com/uc?export=view&id=1zP9Jb_R2m0iFmmpOCpwZ0-r0DgZWA_ep" alt="Pooja Kale" />
           </div>
           <h1>Pooja Kale</h1>
           <h2>MBA in Marketing & HR</h2>
