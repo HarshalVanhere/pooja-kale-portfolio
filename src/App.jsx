@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import profileImage from './assets/images/pooja.jpeg'
-import backgroundImage from './assets/images/69638974-portfolio-wallpapers.jpg'
+
 
 
 function App() {
