@@ -1,5 +1,8 @@
 import { useState } from 'react'
 import './App.css'
+import profileImage from './assets/images/pooja.jpeg'
+import backgroundImage from './assets/images/69638974-portfolio-wallpapers.jpg'
+
 
 function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,7 +11,7 @@ function App() {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  return (
+  return ( 
     <div className="app-container">
       {/* Sticky Navbar */}
       <nav className="navbar">
@@ -31,7 +34,7 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="hero-section" style={{ '--bg-image': `url(/assets/images/69638974-portfolio-wallpapers.jpg)` }}>
+      <section id="hero" className="hero-section" style={{ '--bg-image': `url(https://drive.google.com/file/d/1eC3gbktx0gJoYRS5zFD2Wf51wdfwC0Wp/view?usp=sharing)` }}>
         <div className="hero-content">
           <div className="profile-image">
             <img src="/assets/images/pooja.jpeg" alt="Pooja Kale" />
